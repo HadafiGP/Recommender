@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import MultiLabelBinarizer, StandardScaler
 from scipy.sparse import hstack
 
-# Load job opportunities data
+# Load job opportunities data 2
 file_path = 'data/PreProcessedOpportunities.csv'
 opp_df = pd.read_csv(file_path)
 
